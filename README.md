@@ -22,7 +22,7 @@ In this current implementation there is no concept of master-slave, all jobs are
 
 Since we are using ETCD when a new worker comes into the clusters the other workers detect and stop all jobs and will re-distribute the current list of jobs.
 
-![Screenshot-at-2018-09-22-00-04-33.png](docs/Screenshot-at-2018-09-22-00-04-33.png)
+![Screenshot-at-2018-09-22-00-04-33.png](docs/Screenshot from 2018-09-22 13-16-20.png)
 
 ### Prerequisites
 
