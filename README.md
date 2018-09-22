@@ -22,7 +22,8 @@ In this current implementation there is no concept of master-slave, all jobs are
 
 Since we are using ETCD when a new worker comes into the clusters the other workers detect and stop all jobs and will re-distribute the current list of jobs.
 
-![Screenshot-at-2018-09-22-00-04-33.png](docs/Screenshot from 2018-09-22 13-16-20.png)
+![Screenshot-from-2018-09-22-13-16-20.png](docs/Screenshot%20at%202018-09-22%2000-04-33.png)
+
 
 ### Prerequisites
 
@@ -104,12 +105,12 @@ docker stack deploy -c docker-compose.yml ingest_service
 ## Running
 There is a small webapp that runs that shows the current jobs with the ability to add or delete jobs
 
-![Screenshot-at-2018-09-22-13-18-24.png](docs/Screenshot-at-2018-09-22-13-18-24.png)
+![Screenshot-at-2018-09-22-13-18-24.png](docs/Screenshot%20at%202018-09-22%2013-18-24.png)
 
 #### Adding new Job
 Based on the list of parameters that get returned by the `GetParams()` job function the ui will display the required list. This means that so long as the list of parameters for you job is simple there will be no need for any UI coding
 
-![Screenshot-from-2018-09-22-13-16-20.png](docs/Screenshot-from-2018-09-22-13-16-20.png)
+![Screenshot-at-2018-09-22-00-04-33.png](docs/Screenshot%20from%202018-09-22%2013-16-20.png)
 
 
 
